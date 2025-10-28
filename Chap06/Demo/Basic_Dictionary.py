@@ -36,7 +36,7 @@ airport_info = {
 for en_name,cn_name in airport_info.items():
     print(f'{en_name}对应的中文名称是{cn_name}')
 
-# 遍历字典中的键
+# 遍历字典中的键 
 for en_name in airport_info.keys():
     print(en_name)
 
